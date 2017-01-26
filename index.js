@@ -7,7 +7,7 @@ module.exports = function(source) {
 
   this.cacheable && this.cacheable();
 
-  return 'module.exports = Ember.HTMLBars.template(' + precompile(source) + ');';
+  return 'export default Ember.Handlebars.template(' + precompile(source) + ');';
 };
 
 module.exports.seperable = true;

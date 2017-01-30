@@ -1,5 +1,5 @@
 {
-  "name": "ember-templates-loader",
+  "name": "ti-ember-templates-loader",
   "version": "1.7.0",
   "description": "Load templates into Ember with webpack.",
   "main": "index.js",
@@ -11,10 +11,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:shama/ember-templates-loader.git"
+    "url": "git@github.com:thoughtindustries/ember-templates-loader.git"
   },
   "bugs": {
-    "url": "https://github.com/shama/ember-templates-loader/issues"
+    "url": "https://github.com/thoughtindustries/ember-templates-loader/issues"
   },
   "files": [
     "index.js",

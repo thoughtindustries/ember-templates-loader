@@ -1,6 +1,6 @@
 {
   "name": "ti-ember-templates-loader",
-  "version": "1.7.0",
+  "version": "4.7.0",
   "description": "Load templates into Ember with webpack.",
   "main": "index.js",
   "scripts": {
@@ -20,18 +20,20 @@
     "index.js",
     "ember-template-compiler.js"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "loader-utils": "^2.0.0"
+  },
   "napa": {
     "ember": "components/ember#1.13.0"
   },
   "devDependencies": {
-    "webpack-dev-server": "~0.11.0",
-    "should": "~3.1.2",
+    "css-loader": "~0.6.2",
     "mocha": "~1.14.0",
     "mocha-loader": "~0.6.3",
     "napa": "^1.2.0",
-    "css-loader": "~0.6.2",
-    "raw-loader": "~0.5.0"
+    "raw-loader": "~0.5.0",
+    "should": "~3.1.2",
+    "webpack-dev-server": "~0.11.0"
   },
   "keywords": [
     "ember",
